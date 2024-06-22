@@ -25,7 +25,7 @@ from flask_tjfu_captcha import TjfuCaptcha
 app = Flask(__name__)
 tjfu_captcha = TjfuCaptcha(
     app,
-    True  # Must be in Debug mode
+    True
 )
 
 
